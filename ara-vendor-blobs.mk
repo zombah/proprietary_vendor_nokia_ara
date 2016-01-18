@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -70,6 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/nokia/ara/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/nokia/ara/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/nokia/ara/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/nokia/ara/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/nokia/ara/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/nokia/ara/proprietary/bin/mm-jpeg-dec-test:system/bin/mm-jpeg-dec-test \
@@ -261,6 +262,8 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smiapp0c563a03_snapshot.so:system/vendor/lib/libchromatix_smiapp0c563a03_snapshot.so \
     vendor/nokia/ara/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/nokia/ara/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libimage-jpeg-enc-omx-comp.so:system/vendor/lib/libimage-jpeg-enc-omx-comp.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libimage-omx-common.so:system/vendor/lib/libimage-omx-common.so \
     vendor/nokia/ara/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/nokia/ara/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/nokia/ara/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
@@ -316,6 +319,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/nokia/ara/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/nokia/ara/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libmmstillomx.so:system/vendor/lib/libmmstillomx.so \
     vendor/nokia/ara/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/nokia/ara/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/nokia/ara/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
@@ -336,8 +340,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/nokia/ara/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/nokia/ara/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
-    vendor/nokia/ara/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/nokia/ara/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/nokia/ara/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/nokia/ara/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/nokia/ara/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
@@ -346,6 +348,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/nokia/ara/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/nokia/ara/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
     vendor/nokia/ara/proprietary/bin/nemod:system/bin/nemod \
     vendor/nokia/ara/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/nokia/ara/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
@@ -358,7 +361,10 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/nokia/ara/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/nokia/ara/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libswdec_2dto3d.so:system/vendor/lib/libswdec_2dto3d.so \
     vendor/nokia/ara/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/nokia/ara/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
     vendor/nokia/ara/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/nokia/ara/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/nokia/ara/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
@@ -377,6 +383,8 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     vendor/nokia/ara/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/nokia/ara/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/nokia/ara/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/nokia/ara/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/nokia/ara/proprietary/bin/radish:system/bin/radish \
@@ -387,6 +395,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/nokia/ara/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/nokia/ara/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/nokia/ara/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
     vendor/nokia/ara/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/nokia/ara/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/nokia/ara/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
@@ -401,61 +410,4 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/nokia/ara/proprietary/etc/firmware/isdbt_zico.inp:system/etc/firmware/isdbt_zico.inp \
     vendor/nokia/ara/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/nokia/ara/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/nokia/ara/proprietary/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_camera.so:system/vendor/lib/mmi_camera.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_led.so:system/vendor/lib/mmi_led.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_volume.so:system/vendor/lib/mmi_volume.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_msensor.so:system/vendor/lib/mmi_msensor.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_psensor.so:system/vendor/lib/mmi_psensor.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_fm.so:system/vendor/lib/mmi_fm.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_touch.so:system/vendor/lib/mmi_touch.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_keypadbacklight.so:system/vendor/lib/mmi_keypadbacklight.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_flashlight.so:system/vendor/lib/mmi_flashlight.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_sdcard.so:system/vendor/lib/mmi_sdcard.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_bt.so:system/vendor/lib/mmi_bt.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_gsensor.so:system/vendor/lib/mmi_gsensor.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_sim.so:system/vendor/lib/mmi_sim.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_lsensor.so:system/vendor/lib/mmi_lsensor.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_touchpanel.so:system/vendor/lib/mmi_touchpanel.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_lcd.so:system/vendor/lib/mmi_lcd.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_gps_garden.so:system/vendor/lib/mmi_gps_garden.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_gyroscope.so:system/vendor/lib/mmi_gyroscope.so \
-    vendor/nokia/ara/proprietary/vendor/lib/mmi_battery.so:system/vendor/lib/mmi_battery.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmmQTA.so:system/vendor/lib/libmmQTA.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libcneutils.so:system/vendor/lib/libcneutils.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libsurround_proc.so:system/vendor/lib/libsurround_proc.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libv8.so:system/vendor/lib/libv8.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libdnshostprio.so:system/vendor/lib/libdnshostprio.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libimage-omx-common.so:system/vendor/lib/libimage-omx-common.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libswdec_2dto3d.so:system/vendor/lib/libswdec_2dto3d.so \
-    vendor/nokia/ara/proprietary/vendor/lib/spl_proc_plugin.so:system/vendor/lib/spl_proc_plugin.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/nokia/ara/proprietary/vendor/lib/pp_proc_plugin.so:system/vendor/lib/pp_proc_plugin.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmmstillomx.so:system/vendor/lib/libmmstillomx.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libimage-jpeg-enc-omx-comp.so:system/vendor/lib/libimage-jpeg-enc-omx-comp.so
+    vendor/nokia/ara/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw
