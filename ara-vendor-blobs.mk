@@ -73,34 +73,11 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/nokia/ara/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/nokia/ara/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/nokia/ara/proprietary/bin/mm-jpeg-dec-test:system/bin/mm-jpeg-dec-test \
-    vendor/nokia/ara/proprietary/bin/mm-jpeg-enc-test:system/bin/mm-jpeg-enc-test \
-    vendor/nokia/ara/proprietary/bin/mm-jpeg-enc-test-client:system/bin/mm-jpeg-enc-test-client \
-    vendor/nokia/ara/proprietary/bin/mm-qjpeg-dec-test:system/bin/mm-qjpeg-dec-test \
-    vendor/nokia/ara/proprietary/bin/mm-qjpeg-enc-test:system/bin/mm-qjpeg-enc-test \
-    vendor/nokia/ara/proprietary/bin/mm-qomx-idec-test:system/bin/mm-qomx-idec-test \
-    vendor/nokia/ara/proprietary/bin/mm-qomx-ienc-test:system/bin/mm-qomx-ienc-test \
-    vendor/nokia/ara/proprietary/bin/mm-vdec-omx-test:system/bin/mm-vdec-omx-test \
-    vendor/nokia/ara/proprietary/bin/mm-venc-omx-test720p:system/bin/mm-venc-omx-test720p \
-    vendor/nokia/ara/proprietary/bin/mm-video-driver-test:system/bin/mm-video-driver-test \
-    vendor/nokia/ara/proprietary/bin/mm-video-encdrv-test:system/bin/mm-video-encdrv-test \
-    vendor/nokia/ara/proprietary/etc/camera/dcc/0107A302.dcc:system/etc/camera/dcc/0107A302.dcc \
-    vendor/nokia/ara/proprietary/etc/camera/dcc/0107A303.dcc:system/etc/camera/dcc/0107A303.dcc \
-    vendor/nokia/ara/proprietary/etc/camera/dcc/010B8B01.dcc:system/etc/camera/dcc/010B8B01.dcc \
-    vendor/nokia/ara/proprietary/etc/camera/dcc/010B8B02.dcc:system/etc/camera/dcc/010B8B02.dcc \
-    vendor/nokia/ara/proprietary/etc/camera/dcc/010B8B03.dcc:system/etc/camera/dcc/010B8B03.dcc \
-    vendor/nokia/ara/proprietary/etc/camera/dcc/010B8B04.dcc:system/etc/camera/dcc/010B8B04.dcc \
-    vendor/nokia/ara/proprietary/etc/camera/dcc/0C563A03.dcc:system/etc/camera/dcc/0C563A03.dcc \
-    vendor/nokia/ara/proprietary/etc/camera/dcc/115B6002.dcc:system/etc/camera/dcc/115B6002.dcc \
-    vendor/nokia/ara/proprietary/etc/camera/dcc/11F50900.dcc:system/etc/camera/dcc/11F50900.dcc \
-    vendor/nokia/ara/proprietary/etc/camera/dcc/11F50901.dcc:system/etc/camera/dcc/11F50901.dcc \
-    vendor/nokia/ara/proprietary/etc/camera/dfc/05000300.dfc:system/etc/camera/dfc/05000300.dfc \
     vendor/nokia/ara/proprietary/lib/hw/camera.vendor.msm8610.so:system/lib/hw/camera.vendor.msm8610.so \
     vendor/nokia/ara/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/nokia/ara/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/nokia/ara/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/nokia/ara/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/nokia/ara/proprietary/lib/libcdcc.so:system/lib/libcdcc.so \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_imx134_common.so:system/vendor/lib/libchromatix_imx134_common.so \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_imx134_default_video.so:system/vendor/lib/libchromatix_imx134_default_video.so \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_imx134_hfr_120.so:system/vendor/lib/libchromatix_imx134_hfr_120.so \
@@ -205,54 +182,12 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp010b8b01_preview.so:system/vendor/lib/libchromatix_smia65pp010b8b01_preview.so \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp010b8b01_productiontest.so:system/vendor/lib/libchromatix_smia65pp010b8b01_productiontest.so \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp010b8b01_snapshot.so:system/vendor/lib/libchromatix_smia65pp010b8b01_snapshot.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp010b8b02_common.so:system/vendor/lib/libchromatix_smia65pp010b8b02_common.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp010b8b02_default_video.so:system/vendor/lib/libchromatix_smia65pp010b8b02_default_video.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp010b8b02_liveshot.so:system/vendor/lib/libchromatix_smia65pp010b8b02_liveshot.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp010b8b02_preview.so:system/vendor/lib/libchromatix_smia65pp010b8b02_preview.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp010b8b02_productiontest.so:system/vendor/lib/libchromatix_smia65pp010b8b02_productiontest.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp010b8b02_snapshot.so:system/vendor/lib/libchromatix_smia65pp010b8b02_snapshot.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp010b8b03_common.so:system/vendor/lib/libchromatix_smia65pp010b8b03_common.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp010b8b03_default_video.so:system/vendor/lib/libchromatix_smia65pp010b8b03_default_video.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp010b8b03_liveshot.so:system/vendor/lib/libchromatix_smia65pp010b8b03_liveshot.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp010b8b03_preview.so:system/vendor/lib/libchromatix_smia65pp010b8b03_preview.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp010b8b03_productiontest.so:system/vendor/lib/libchromatix_smia65pp010b8b03_productiontest.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp010b8b03_snapshot.so:system/vendor/lib/libchromatix_smia65pp010b8b03_snapshot.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp010b8b04_common.so:system/vendor/lib/libchromatix_smia65pp010b8b04_common.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp010b8b04_default_video.so:system/vendor/lib/libchromatix_smia65pp010b8b04_default_video.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp010b8b04_liveshot.so:system/vendor/lib/libchromatix_smia65pp010b8b04_liveshot.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp010b8b04_preview.so:system/vendor/lib/libchromatix_smia65pp010b8b04_preview.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp010b8b04_productiontest.so:system/vendor/lib/libchromatix_smia65pp010b8b04_productiontest.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp010b8b04_snapshot.so:system/vendor/lib/libchromatix_smia65pp010b8b04_snapshot.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp115b6002_common.so:system/vendor/lib/libchromatix_smia65pp115b6002_common.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp115b6002_default_video.so:system/vendor/lib/libchromatix_smia65pp115b6002_default_video.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp115b6002_liveshot.so:system/vendor/lib/libchromatix_smia65pp115b6002_liveshot.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp115b6002_preview.so:system/vendor/lib/libchromatix_smia65pp115b6002_preview.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp115b6002_productiontest.so:system/vendor/lib/libchromatix_smia65pp115b6002_productiontest.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp115b6002_snapshot.so:system/vendor/lib/libchromatix_smia65pp115b6002_snapshot.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp11f50900_common.so:system/vendor/lib/libchromatix_smia65pp11f50900_common.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp11f50900_default_video.so:system/vendor/lib/libchromatix_smia65pp11f50900_default_video.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp11f50900_liveshot.so:system/vendor/lib/libchromatix_smia65pp11f50900_liveshot.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp11f50900_preview.so:system/vendor/lib/libchromatix_smia65pp11f50900_preview.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp11f50900_productiontest.so:system/vendor/lib/libchromatix_smia65pp11f50900_productiontest.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp11f50900_snapshot.so:system/vendor/lib/libchromatix_smia65pp11f50900_snapshot.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp11f50901_common.so:system/vendor/lib/libchromatix_smia65pp11f50901_common.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp11f50901_default_video.so:system/vendor/lib/libchromatix_smia65pp11f50901_default_video.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp11f50901_liveshot.so:system/vendor/lib/libchromatix_smia65pp11f50901_liveshot.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp11f50901_preview.so:system/vendor/lib/libchromatix_smia65pp11f50901_preview.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp11f50901_productiontest.so:system/vendor/lib/libchromatix_smia65pp11f50901_productiontest.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smia65pp11f50901_snapshot.so:system/vendor/lib/libchromatix_smia65pp11f50901_snapshot.so \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smiapp0107a302_common.so:system/vendor/lib/libchromatix_smiapp0107a302_common.so \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smiapp0107a302_default_video.so:system/vendor/lib/libchromatix_smiapp0107a302_default_video.so \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smiapp0107a302_liveshot.so:system/vendor/lib/libchromatix_smiapp0107a302_liveshot.so \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smiapp0107a302_preview.so:system/vendor/lib/libchromatix_smiapp0107a302_preview.so \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smiapp0107a302_productiontest.so:system/vendor/lib/libchromatix_smiapp0107a302_productiontest.so \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smiapp0107a302_snapshot.so:system/vendor/lib/libchromatix_smiapp0107a302_snapshot.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smiapp0107a303_common.so:system/vendor/lib/libchromatix_smiapp0107a303_common.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smiapp0107a303_default_video.so:system/vendor/lib/libchromatix_smiapp0107a303_default_video.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smiapp0107a303_liveshot.so:system/vendor/lib/libchromatix_smiapp0107a303_liveshot.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smiapp0107a303_preview.so:system/vendor/lib/libchromatix_smiapp0107a303_preview.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smiapp0107a303_productiontest.so:system/vendor/lib/libchromatix_smiapp0107a303_productiontest.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smiapp0107a303_snapshot.so:system/vendor/lib/libchromatix_smiapp0107a303_snapshot.so \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smiapp0c563a03_common.so:system/vendor/lib/libchromatix_smiapp0c563a03_common.so \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smiapp0c563a03_default_video.so:system/vendor/lib/libchromatix_smiapp0c563a03_default_video.so \
     vendor/nokia/ara/proprietary/vendor/lib/libchromatix_smiapp0c563a03_liveshot.so:system/vendor/lib/libchromatix_smiapp0c563a03_liveshot.so \
@@ -298,14 +233,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/libmmcamera_skuf_ov12830_p12v01c.so:system/vendor/lib/libmmcamera_skuf_ov12830_p12v01c.so \
     vendor/nokia/ara/proprietary/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so:system/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so \
     vendor/nokia/ara/proprietary/vendor/lib/libmmcamera_smia65pp010b8b01.so:system/vendor/lib/libmmcamera_smia65pp010b8b01.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmmcamera_smia65pp010b8b02.so:system/vendor/lib/libmmcamera_smia65pp010b8b02.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmmcamera_smia65pp010b8b03.so:system/vendor/lib/libmmcamera_smia65pp010b8b03.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmmcamera_smia65pp010b8b04.so:system/vendor/lib/libmmcamera_smia65pp010b8b04.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmmcamera_smia65pp115b6002.so:system/vendor/lib/libmmcamera_smia65pp115b6002.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmmcamera_smia65pp11f50900.so:system/vendor/lib/libmmcamera_smia65pp11f50900.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmmcamera_smia65pp11f50901.so:system/vendor/lib/libmmcamera_smia65pp11f50901.so \
     vendor/nokia/ara/proprietary/vendor/lib/libmmcamera_smiapp0107a302.so:system/vendor/lib/libmmcamera_smiapp0107a302.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libmmcamera_smiapp0107a303.so:system/vendor/lib/libmmcamera_smiapp0107a303.so \
     vendor/nokia/ara/proprietary/vendor/lib/libmmcamera_smiapp0c563a03.so:system/vendor/lib/libmmcamera_smiapp0c563a03.so \
     vendor/nokia/ara/proprietary/vendor/lib/libmmcamera_smiapp_eeprom_eeprom.so:system/vendor/lib/libmmcamera_smiapp_eeprom_eeprom.so \
     vendor/nokia/ara/proprietary/vendor/lib/libmmcamera_sp1628.so:system/vendor/lib/libmmcamera_sp1628.so \
@@ -323,7 +251,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/ara/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/nokia/ara/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/nokia/ara/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/nokia/ara/proprietary/vendor/lib/libNIPS_NokiaIPA.so:system/vendor/lib/libNIPS_NokiaIPA.so \
     vendor/nokia/ara/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/nokia/ara/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/nokia/ara/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
